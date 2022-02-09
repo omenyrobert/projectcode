@@ -1,0 +1,187 @@
+.sidenav{
+    background-color: #faf9fc;
+    text-align: center;
+    font-size: smaller;
+    color: #7f05e7;
+}
+
+.sidenav-icons{
+    display: flex;
+    margin-left: 20px;
+}
+.nav-icon1{
+background-color: #7f05e7;
+border-radius: 10px;
+width: 40px;
+}
+.other-icons{
+    background-color: #ebe8fb;
+    border-radius: 10px;
+    width: 40px;
+}
+.left-icon{
+    margin-left: 10px;
+}
+.icon-name{
+    font-size: smaller;
+}
+.upgrade{
+    border-radius: 15px;
+    width: 90%;
+    height: 260px;
+    background-color: #c48ef3;
+    margin-bottom: 50px;
+}
+.get-pro{
+    background-color: #fff;
+    border-radius: 15px;
+    height: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+.searchbar{
+    background-color: #faf9fc;
+    border-radius: 50px;
+    width: 80%;
+    
+}
+.badg{
+    background-color: #f87704;
+    border-radius: 100%;
+    color: #fff;
+    height: 30px;
+    width: 30px;
+    padding-left: 7px;
+    padding-top: 3px;
+    font-size: smaller;
+    margin-left: 120px;
+    margin-bottom: -15px;
+}
+.bitcoin{
+    background-color: #fae9c7c2;
+    border-radius: 15px;
+    height: 280px;
+    width: 170px;
+}
+.bitcoin2{
+    background-color: #facbf7ad;
+    border-radius: 15px;
+    height: 280px;
+    width: 170px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+#currency-icon{
+    color: #fff;
+    font-size: 90px;
+    margin-left: -20px;
+    
+}
+
+.bitcoin3{
+    background-color: #badefa;
+    border-radius: 15px;
+    height: 280px;
+    width: 170px;
+}
+.down-icon{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    margin-left: 250px;
+    margin-top: 10px;
+    box-shadow: 0 16px 16px rgba(0,0,0,0.12);
+    padding-left: 5px;
+    padding-top: 5px;
+}
+.nav-icon2{
+    background-color: #7f05e7;
+    border-radius: 10px;
+    width: 40px;
+    text-align: center;
+    height: 40px;
+    color: #fff;
+    margin-left: 10px;
+    padding-top: 7px;
+    }
+    .other-icons1{
+        background-color: #ebe8fb;
+        border-radius: 10px;
+        width: 40px;
+        text-align: center;
+        height: 40px;
+        padding-top: 7px;
+    }
+
+    .activi{
+        font-weight: lighter; font-size: smaller;
+        color: #7f05e7;
+    }
+    .activity{
+        display: flex;
+    }
+    .act{
+        margin-left: 40px;
+    }
+    .top-wordd{
+        font-size: smaller;
+        font-weight: lighter;
+        color: #7f05e7;
+    }
+
+    .after-pay{
+        
+        background-color: #fff;
+        border-radius: 10px;
+        padding: 20px;
+        width: 280px;
+        margin-left: 17px;
+    }
+    .down-icon2{
+       margin-left: 10px;
+      
+        /* box-shadow: 0 16px 16px rgba(0,0,0,0.12); */
+        
+    }
+    .ussd{
+        box-shadow: 0 16px 16px rgba(0,0,0,0.12);
+         border-radius: 50px;
+          height: 30px;
+           padding: 10px;
+           font-size: x-small;
+           margin-top: -7px;
+           margin-left: 30px;
+    }
+    .transfer{
+        display: flex;
+         background-color: #d1b7fb; 
+         height: 60px;
+          padding: 10px;
+           color: #5e06b1;
+            border-radius: 10px;
+        width: 280px;
+        margin-left: 20px;
+    }
+    .wallets{
+           color: #5e06b1;
+            border-radius: 10px;
+        width: 280px;
+        margin-left: 20px;
+    }
+    .wallet-icons{
+        width: 40px;
+         height: 40px;
+          background-color: #fbd2fb; 
+          padding: 5px; 
+          border-radius: 10px;
+    }
+
+    .wallet-icons1{
+        width: 40px;
+         height: 40px;
+          background-color: #faf4b4; 
+          padding: 5px; 
+          border-radius: 10px;
+    }
+    
