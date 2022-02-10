@@ -16,7 +16,7 @@
      <div class="row">
          <div class="col-md-2 sidenav">
 
-              <img src="logo.png" width="130" height="40px"/>
+              <img src="images/logo.png" width="130" height="40px"/>
               
               
                   <div class="sidenav-icons mt-4">
@@ -119,7 +119,7 @@
 <div class="upgrade p-2">
 
 
-    <img src="pro.png" class="mt-1" width="150px"/>
+    <img src="images/pro.png" class="mt-1" width="150px"/>
 <div class="get-pro p-2 mt-4">
     
 
@@ -169,7 +169,7 @@
                         <h6>Etherium</h6>
                         <i  class="bi bi-three-dots-vertical"></i>
                     </div>
-                    <img style="width: 60px;" class="my-3" src="coin.png" />
+                    <img style="width: 60px;" class="my-3" src="images/coin.png" />
                     
 
                     <h5 style="color: blue;">10.12356 ETH</h5>
@@ -183,7 +183,7 @@
                         <h6>Litecoin</h6>
                         <i  class="bi bi-three-dots-vertical"></i>
                     </div>
-                    <img style="width: 60px;" class="my-3" src="lit.png" />
+                    <img style="width: 60px;" class="my-3" src="images/lit.png" />
                     
 
                     <h5 style="color: blue;">120.235 LTC</h5>
@@ -231,7 +231,7 @@
                 <i class="bi bi-plus-lg"></i>
                </button>
 
-
+   
 <!-- Modal -->
 <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
@@ -244,26 +244,27 @@
           
         </div>
         <div class="modal-body p-5 modal-sm rounded ">
-        <form style="margin-left: 45px;" name="paymentForm" method="POST" action="" onsubmit="return validateForm()" >
+
+        
+        <form style="margin-left: 45px;" name="contactForm" onsubmit="return validateForm()" action="" method="post" >
             <label class="form-label">Service</label> <br/>
-            <select name="services" id="form-input" required>
-                    <option class="optionn" > Select Service</option>
+            <select name="fname" id="form-input">
+                    <option> Select Service</option>
             </select>
-            <div class="error" id="serviceErr"></div>
+            <div class="error" id="nameErr"></div>
 
              <br/>
             <label class="form-label">Wallet</label><br/>
-            <select name="wallet"  id="form-input" required>
+            <select name="email" id="form-input">
               <option>Select Wallet</option>
-              <option>more</option>
-              
+                   
             </select>
-            <div class="error" id="walletErr"></div>
+            <div class="error" id="emailErr"></div>
             <br/>
 
             <label class="form-label">Amount</label><br/>
-            <input type="text" name="amount" id="form-input" required/>
-            <div class="error" id="amountErr"></div>
+            <input type="text" name="mobile" id="form-input"/>
+            <div class="error" id="mobileErr"></div>
              <br/><br/>
             <div class="buttons">
                 <button data-bs-dismiss="modal" class="cancel">
@@ -275,7 +276,7 @@
                 </button>
             </div>
 
-        </form>
+        </form> 
         </div>
        
       </div>
@@ -371,7 +372,7 @@
        </div>
 
        <div>
-     <img src="person.jpg" style="width: 30px; border-radius: 10px; margin-top: -5px;"/>
+     <img src="images/person.jpg" style="width: 30px; border-radius: 10px; margin-top: -5px;"/>
        </div>
 
        </div>
@@ -396,7 +397,7 @@
 
     <div style="display: flex;">
         <div style="background-color: #f87704; width: 25px; height: 25px; border-radius: 100%; padding: 5px;">
-            <img src="lit.png" style="width: 10px; margin-top: -15px; margin-left: 2px;"/>
+            <img src="images/lit.png" style="width: 10px; margin-top: -15px; margin-left: 2px;"/>
         </div>
          <div style="margin-left: 7px;font-size: smaller;">
              <b>Received LTC</b>
@@ -415,7 +416,7 @@
         </div>
          
         <div>
-            <img src="more.png" style="width: 50px;"/>
+            <img src="images/more.png" style="width: 50px;"/>
         </div>
 
     </div>
@@ -428,7 +429,7 @@
 
     <div style="display: flex;">
         <div style="background-color: #f87704; width: 25px; height: 25px; border-radius: 100%; padding: 5px;">
-            <img src="lit.png" style="width: 10px; margin-top: -15px; margin-left: 2px;"/>
+            <img src="images/lit.png" style="width: 10px; margin-top: -15px; margin-left: 2px;"/>
         </div>
          <div style="margin-left: 3px;font-size: smaller;">
              <b>Received LINK</b>
@@ -447,7 +448,7 @@
         </div>
          
         <div>
-            <img src="more2.png" style="width: 50px;"/>
+            <img src="images/more2.png" style="width: 50px;"/>
         </div>
 
     </div>
@@ -509,7 +510,7 @@
 
     <div class="mt-2" style="display: flex;">
         <div class="wallet-icons4">
-            <img src="ripple.png" style="width: 15px; margin-left: 7px;" />
+            <img src="images/ripple.png" style="width: 15px; margin-left: 7px;" />
         </div>
 
         <div style="margin-left: 10px;">
@@ -528,7 +529,7 @@
 
     <div class="mt-2" style="display: flex;">
         <div class="wallet-icons4">
-            <img src="tether.png" style="width: 15px; margin-left: 7px;" />
+            <img src="images/tether.png" style="width: 15px; margin-left: 7px;" />
             
         </div>
 
@@ -566,6 +567,8 @@
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
+    
+
     <script>
         // Defining a function to display error message
         function printError(elemId, hintMsg) {
@@ -575,44 +578,69 @@
         // Defining a function to validate form 
         function validateForm() {
             // Retrieving the values of form elements 
-            var service = document.paymentForm.service.value;
-            var wallet = document.paymentForm.wallet.value;
-            var amount = document.paymentForm.amount.value;          
+            var fname = document.contactForm.fname.value;
+            var email = document.contactForm.email.value;
+            var mobile = document.contactForm.mobile.value;
+                      
             // Defining error variables with a default value
-            var serviceErr = walletErr = amountErr = true;
+            var nameErr = emailErr = mobileErr = true;
             
-
-                   // Validate service
-            if(service == "") {
-                printError("serviceErr", "Please Select a Payment service");
+            // Validate name
+            if(name == "") {
+                printError("nameErr", "Please Select a service");
             } else {
-                printError("serviceErr", "");
-                serviceErr = false;
-            }
-
-          
-            
-            // Validate wallet
-            if(wallet == "") {
-                printError("walletErr", "Please Select a Payment Wallet");
-            } else {
-                printError("walletErr", "");
-                walletErr = false;
+                var regex = /^[a-zA-Z\s]+$/;                
+                if(regex.test(fname) === false) {
+                    printError("nameErr", "Please Select a service");
+                } else {
+                    printError("nameErr", "");
+                    nameErr = false;
+                }
             }
             
-            // Validate amount
-            if(amount == "") {
-                printError("amountErr", "Please Enter an Amount");
+            // Validate email address
+            if(email == "") {
+                printError("emailErr", "Please Select a Payment Wallet");
             } else {
-                printError("amountErr", "");
-                amountErr = false;
+                // Regular expression for basic email validation
+                var regex = /^\S+@\S+\.\S+$/;
+                if(regex.test(email) === false) {
+                    printError("emailErr", "Please Select a Payment Wallet");
+                } else{
+                    printError("emailErr", "");
+                    emailErr = false;
+                }
             }
             
-         
+            // Validate mobile number
+            if(mobile == "") {
+                printError("mobileErr", "Please Enter an Amount");
+            } else {
+                var regex = /^[1-9]\d{9}$/;
+                if(regex.test(mobile) === false) {
+                    printError("mobileErr", "Please Enter an Amount");
+                } else{
+                    printError("mobileErr", "");
+                    mobileErr = false;
+                }
+            }
+            
+            
+            // Prevent the form from being submitted if there are any errors
+            if((nameErr || emailErr || mobileErr) == true) {
+               return false;
+            } else {
+                // Creating a string from input data for preview
+                var dataPreview = "You've entered the following details: \n" +
+                                  "Full Name: " + fname + "\n" +
+                                  "Email Address: " + email + "\n" +
+                                  "Mobile Number: " + mobile + "\n";
+            
+                // Display input data in a dialog box before submitting the form
+                alert(dataPreview);
+            }
         };
         </script>
-
-
 
 
   </body>
