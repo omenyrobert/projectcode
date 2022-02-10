@@ -16,9 +16,10 @@
      <div class="row">
          <div class="col-md-2 sidenav">
 
-              <img src="logo.png" width="150"/>
+              <img src="images/logo.png" width="130" height="40px"/>
               
-                  <div class="sidenav-icons">
+              
+                  <div class="sidenav-icons mt-4">
                     <div>
                     <div class="nav-icon1 m-3 p-2">
                         <i style="color: black;" class="bi bi-ui-checks-grid"></i>
@@ -118,7 +119,7 @@
 <div class="upgrade p-2">
 
 
-    <img src="pro.png" class="mt-1" width="150px"/>
+    <img src="images/pro.png" class="mt-1" width="150px"/>
 <div class="get-pro p-2 mt-4">
     
 
@@ -168,7 +169,7 @@
                         <h6>Etherium</h6>
                         <i  class="bi bi-three-dots-vertical"></i>
                     </div>
-                    <img style="width: 60px;" class="my-3" src="coin.png" />
+                    <img style="width: 60px;" class="my-3" src="images/coin.png" />
                     
 
                     <h5 style="color: blue;">10.12356 ETH</h5>
@@ -182,7 +183,7 @@
                         <h6>Litecoin</h6>
                         <i  class="bi bi-three-dots-vertical"></i>
                     </div>
-                    <img style="width: 60px;" class="my-3" src="lit.png" />
+                    <img style="width: 60px;" class="my-3" src="images/lit.png" />
                     
 
                     <h5 style="color: blue;">120.235 LTC</h5>
@@ -226,10 +227,61 @@
                 <i class="bi bi-gear"></i>
                </div>
                
-               <div class="nav-icon2">
+               <button data-bs-toggle="modal" data-bs-target="#exampleModal" class="nav-icon2">
                 <i class="bi bi-plus-lg"></i>
-               </div>
+               </button>
 
+   
+<!-- Modal -->
+<div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+            
+                <h5 style="margin-left: 170px;">Bill Payment</h5>
+           
+          
+          
+        </div>
+        <div class="modal-body p-5 modal-sm rounded ">
+
+        
+        <form style="margin-left: 45px;" name="contactForm" onsubmit="return validateForm()" action="" method="post" >
+            <label class="form-label">Service</label> <br/>
+            <select name="fname" id="form-input">
+                    <option> Select Service</option>
+            </select>
+            <div class="error" id="nameErr"></div>
+
+             <br/>
+            <label class="form-label">Wallet</label><br/>
+            <select name="email" id="form-input">
+              <option>Select Wallet</option>
+                   
+            </select>
+            <div class="error" id="emailErr"></div>
+            <br/>
+
+            <label class="form-label">Amount</label><br/>
+            <input type="text" name="mobile" id="form-input"/>
+            <div class="error" id="mobileErr"></div>
+             <br/><br/>
+            <div class="buttons">
+                <button data-bs-dismiss="modal" class="cancel">
+                 Cancel
+                </button>
+
+                <button type="submit" class="pay-button">
+                 Pay
+                </button>
+            </div>
+
+        </form> 
+        </div>
+       
+      </div>
+    </div>
+  </div>
            </div>
            
  
@@ -239,8 +291,9 @@
         <div class="activity mt-4">
 
             <div class="other-icons1" >
-                <i class="bi bi-shield-fill"></i>
-               </div>
+                <i style="color: #043ba1;" class="bi bi-shield-shaded"></i>
+
+                </div>
 
                <div class="act">
                    <b>Insurance </b>
@@ -269,26 +322,26 @@
               <!-- activity two -->
         <div class="activity mt-4">
 
-            <div class="other-icons1" >
-                <i class="bi bi-shield-fill"></i>
+            <div class="other-iconsl" >
+                <i style="color: #f80846;" class="bi bi-lightning"></i>
                </div>
 
                <div class="act">
-                   <b>Insurance </b>
-                   <p class="activi">Property Coverage</p>
+                   <b>Electricity </b>
+                   <p class="activi">Utility Payments</p>
                </div>
 
                <div class="act">
-                <b>LTC Wallet</b>
+                <b>ETH Wallet</b>
                 <p class="activi">Personal Account</p>
             </div>
             <div class="act">
-                <b>7 Jun, 21</b>
+                <b>9 Jun, 21</b>
                 <p class="activi">Last Payment</p>
             </div>
 
             <div class="act">
-                <b>-10.24 LTC</b>
+                <b>-3.543 ETH</b>
                 <p class="activi">Balance</p>
             </div>
 
@@ -319,7 +372,7 @@
        </div>
 
        <div>
-     <img src="person.jpg" style="width: 30px; border-radius: 10px; margin-top: -5px;"/>
+     <img src="images/person.jpg" style="width: 30px; border-radius: 10px; margin-top: -5px;"/>
        </div>
 
        </div>
@@ -344,7 +397,7 @@
 
     <div style="display: flex;">
         <div style="background-color: #f87704; width: 25px; height: 25px; border-radius: 100%; padding: 5px;">
-            <img src="lit.png" style="width: 10px; margin-top: -15px; margin-left: 2px;"/>
+            <img src="images/lit.png" style="width: 10px; margin-top: -15px; margin-left: 2px;"/>
         </div>
          <div style="margin-left: 7px;font-size: smaller;">
              <b>Received LTC</b>
@@ -363,7 +416,7 @@
         </div>
          
         <div>
-            <img src="more.png" style="width: 50px;"/>
+            <img src="images/more.png" style="width: 50px;"/>
         </div>
 
     </div>
@@ -376,12 +429,12 @@
 
     <div style="display: flex;">
         <div style="background-color: #f87704; width: 25px; height: 25px; border-radius: 100%; padding: 5px;">
-            <img src="lit.png" style="width: 10px; margin-top: -15px; margin-left: 2px;"/>
+            <img src="images/lit.png" style="width: 10px; margin-top: -15px; margin-left: 2px;"/>
         </div>
-         <div style="margin-left: 7px;font-size: smaller;">
+         <div style="margin-left: 3px;font-size: smaller;">
              <b>Received LINK</b>
          </div>
-         <div class="down-icon2">
+         <div class="down-icon3">
             <i class="bi bi-chevron-down"></i>
         </div>
         <div class="ussd">
@@ -395,7 +448,7 @@
         </div>
          
         <div>
-            <img src="more2.png" style="width: 50px;"/>
+            <img src="images/more2.png" style="width: 50px;"/>
         </div>
 
     </div>
@@ -448,7 +501,7 @@
 
         <div style="margin-left: 160px;">
             <h6>23%</h6>
-            <p style="font-size: x-small; color: #16a8f3;">+2.7%</p>
+            <p style="font-size: x-small;">+2.7%</p>
         </div>
     </div>
 
@@ -456,38 +509,39 @@
 
 
     <div class="mt-2" style="display: flex;">
-        <div class="wallet-icons">
-            <i style="color: #f66cf4; font-size: larger; margin-left: 5px;" class="bi bi-currency-bitcoin"></i>
+        <div class="wallet-icons4">
+            <img src="images/ripple.png" style="width: 15px; margin-left: 7px;" />
         </div>
 
         <div style="margin-left: 10px;">
-            <h6>BTC</h6>
-            <p style="font-size: x-small;">Bitcoin</p>
+            <h6>XRP</h6>
+            <p style="font-size: x-small;">Ripple</p>
             
         </div>
 
         <div style="margin-left: 160px;">
-            <h6>37%</h6>
-            <p style="font-size: x-small; color: #16a8f3;">-2.5%</p>
+            <h6>20%</h6>
+            <p style="font-size: x-small; color: #16a8f3;">-3.1%</p>
         </div>
     </div>
 
 
 
     <div class="mt-2" style="display: flex;">
-        <div class="wallet-icons">
-            <i style="color: #f66cf4; font-size: larger; margin-left: 5px;" class="bi bi-currency-bitcoin"></i>
+        <div class="wallet-icons4">
+            <img src="images/tether.png" style="width: 15px; margin-left: 7px;" />
+            
         </div>
 
         <div style="margin-left: 10px;">
-            <h6>BTC</h6>
-            <p style="font-size: x-small;">Bitcoin</p>
+            <h6>USDT</h6>
+            <p style="font-size: x-small;">Tether</p>
             
         </div>
 
         <div style="margin-left: 160px;">
-            <h6>37%</h6>
-            <p style="font-size: x-small; color: #16a8f3;">-2.5%</p>
+            <h6>17%</h6>
+            <p style="font-size: x-small;"> +1.8%</p>
         </div>
     </div>
 
@@ -512,6 +566,82 @@
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    
+
+    <script>
+        // Defining a function to display error message
+        function printError(elemId, hintMsg) {
+            document.getElementById(elemId).innerHTML = hintMsg;
+        }
+        
+        // Defining a function to validate form 
+        function validateForm() {
+            // Retrieving the values of form elements 
+            var fname = document.contactForm.fname.value;
+            var email = document.contactForm.email.value;
+            var mobile = document.contactForm.mobile.value;
+                      
+            // Defining error variables with a default value
+            var nameErr = emailErr = mobileErr = true;
+            
+            // Validate name
+            if(name == "") {
+                printError("nameErr", "Please Select a service");
+            } else {
+                var regex = /^[a-zA-Z\s]+$/;                
+                if(regex.test(fname) === false) {
+                    printError("nameErr", "Please Select a service");
+                } else {
+                    printError("nameErr", "");
+                    nameErr = false;
+                }
+            }
+            
+            // Validate email address
+            if(email == "") {
+                printError("emailErr", "Please Select a Payment Wallet");
+            } else {
+                // Regular expression for basic email validation
+                var regex = /^\S+@\S+\.\S+$/;
+                if(regex.test(email) === false) {
+                    printError("emailErr", "Please Select a Payment Wallet");
+                } else{
+                    printError("emailErr", "");
+                    emailErr = false;
+                }
+            }
+            
+            // Validate mobile number
+            if(mobile == "") {
+                printError("mobileErr", "Please Enter an Amount");
+            } else {
+                var regex = /^[1-9]\d{9}$/;
+                if(regex.test(mobile) === false) {
+                    printError("mobileErr", "Please Enter an Amount");
+                } else{
+                    printError("mobileErr", "");
+                    mobileErr = false;
+                }
+            }
+            
+            
+            // Prevent the form from being submitted if there are any errors
+            if((nameErr || emailErr || mobileErr) == true) {
+               return false;
+            } else {
+                // Creating a string from input data for preview
+                var dataPreview = "You've entered the following details: \n" +
+                                  "Full Name: " + fname + "\n" +
+                                  "Email Address: " + email + "\n" +
+                                  "Mobile Number: " + mobile + "\n";
+            
+                // Display input data in a dialog box before submitting the form
+                alert(dataPreview);
+            }
+        };
+        </script>
+
 
   </body>
 </html>
